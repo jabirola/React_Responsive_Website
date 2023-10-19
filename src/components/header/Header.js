@@ -1,7 +1,5 @@
 import React from 'react'
 import './header.css'
-import Typical from 'react-typical'
-
 const Header = () => {
     return (
         <div className='header' id='home'>
