@@ -1,0 +1,86 @@
+.sign_up {
+    background-color: black;
+}
+
+.sign_up_content {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    gap: 1 rem;
+    margin: 0 1rem;
+    padding: 4rem 0;
+
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+input {
+    width: 18rem;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 20px;
+}
+
+button {
+    background-color: rgb(0, 223, 154);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+    padding: 10px 30px;
+    cursor: pointer;
+}
+
+button:hover {
+    color: rgb(0, 223, 154);
+    background-color: gray;
+}
+
+a {
+    color: rgb(0, 223, 154);
+    text-decoration: none;
+}
+
+.news p {
+    margin-top: -1rem;
+}
+
+@media screen and (max-width: 900px) {
+    .sign_up_content {
+        display: flex;
+        flex-wrap: wrap;
+
+    }
+
+    .sign_up_content h1 {
+        font-size: 30px;
+    }
+
+    form {
+
+        flex-wrap: wrap;
+    }
+
+    form input {
+        width: 13rem;
+        font-size: 18px;
+    }
+
+    form button {
+        width: 8rem;
+        font-size: 18px;
+        padding: 10px;
+    }
+
+    .news {
+        padding: 0 2rem;
+    }
+
+    .mail {
+        padding: 0 2rem;
+    }
+
+}
