@@ -30,7 +30,7 @@
     color: rgb(0, 223, 154);
 }
 
-@media screen and (min-width:890px) {
+@media screen and (min-width:800px) {
 
     .burger,
     .close {
