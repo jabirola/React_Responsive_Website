@@ -24,6 +24,7 @@
     color: rgb(0, 223, 154);
     background-color: black;
     border-radius: 10px;
+    text-decoration: none;
 }
 
 .dashboard_content button:hover {

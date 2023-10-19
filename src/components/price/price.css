@@ -22,7 +22,8 @@
     flex-wrap: wrap;
     margin: 0 10rem;
     justify-content: space-between;
-    gap: 3rem
+    gap: 3rem;
+    padding: 3rem 0;
 }
 
 .card button:hover {
