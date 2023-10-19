@@ -36,12 +36,14 @@
     .close {
         display: none;
     }
+
+    .nav_menu {
+        display: none;
+    }
 }
 
 @media screen and (max-width:900px) {
-    .nav_list {
-        display: none;
-    }
+
 
     .burger {
         width: 35px;
